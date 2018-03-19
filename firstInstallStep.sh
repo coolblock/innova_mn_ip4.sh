@@ -23,8 +23,7 @@ sudo apt-get update
 sudo apt-get install -y git python-virtualenv
 mkdir sentineldir
 cd sentineldir
-git clone https://github.com/coolblock/innova_sentinel.git
-mv ./innova_sentinel ./sentinel
+git clone https://github.com/innovacoin/sentinel.git
 cd sentinel
 sudo apt-get install -y virtualenv
 virtualenv venv
