@@ -2,8 +2,8 @@
 cd
 screen -v > /root/scrt.txt
 mkdir /var/log/sentinel
-git clone https://github.com/coolblock/vpsINNOVA.git
-cd vpsINNOVA/
+git clone https://github.com/masternodes/vps.git
+cd vps/
 awk '{gsub("https://github.com/dashpay/sentinel.git", "https://github.com/innovacoin/sentinel.git", $0); print}' install.sh > outputx
 mv install.sh install.bak
 mv outputx install.sh
